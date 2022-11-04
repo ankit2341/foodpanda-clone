@@ -1,0 +1,16 @@
+.truechange{
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+}
+.falsechange{
+    box-shadow: none;
+}
+.side_nav2:hover{
+    background-color: none;
+    background: none;
+}
+.side_nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import Navbar from "../components/Navbar";
 import "../styles/foodlist.css";
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
@@ -224,7 +223,7 @@ export default function Foodlist() {
         {loading?
         [1,2,3,4,5,6,7,8,9,10,11,12].map((el)=>{
           return (
-            <div style={{ width: "298.25px", height: "280px" }}>
+            <div style={{ width: "298.25px", height: "280px" }} >
               <img
                 src="https://i.postimg.cc/d0dGP2Lg/foodpanda-loading-image.jpg"
                 alt=""
@@ -272,7 +271,7 @@ export default function Foodlist() {
         }):
           foodlist.map((el) => {
             return (
-              <div style={{ width: "298.25px", height: "280px" }}>
+              <div style={{ width: "298.25px", height: "280px" }} className="img-hover-zoom">
                 <img
                   src={el.strMealThumb}
                   alt=""

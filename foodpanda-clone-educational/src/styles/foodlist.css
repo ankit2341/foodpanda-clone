@@ -5,3 +5,33 @@ body {
     line-height: 1.6;
     font-size: 1.6rem;
 }
+.img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: brightness(150%);
+    overflow: hidden;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--slowmo:hover img {
+    filter: brightness(100%);
+    overflow: hidden;
+    width: 298px;height: 200px;
+    transform: scale(1.06);
+  }
+  .img-hover-zoom {
+    height: 200px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+    width: 298.25px;height: 200px;overflow: hidden;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.06);
+    overflow: hidden;
+  }
