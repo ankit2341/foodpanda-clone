@@ -14,7 +14,7 @@
 
 ## About the project
 
-This project is clone of well known website known as Sugar Cosmetics builded by me. The purpose of building this project is only and only for educational purposes. All copyrights are reserved by Sugar Cosmetics. I hereby declare that I will not use this for any bad purposes. Thank You!
+This project is clone of well known website known as Foodpanda implemented by me. 
 
 
 
